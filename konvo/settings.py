@@ -130,8 +130,8 @@ STATIC_URL = '/static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = '620693983807-5bf9cp1tjr58rboccpciuqocf97mvsku.apps.googleusercontent.com'
-SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = 'caHNfz-6NOD-LdHUEAa4gQSG'
+SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = '<Client ID>'
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = '<Secret Key>'
 
 LOGIN_URL = '/auth/login/google-oauth2/'
 
