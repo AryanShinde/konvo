@@ -1,0 +1,9 @@
+{% extends 'main/base.html' %}
+
+{% load static %}
+
+{% block body %}
+
+<a href="{% url 'social:begin' 'google-oauth2' %}"><h1>Hello</h1></a>
+
+{% endblock %}
