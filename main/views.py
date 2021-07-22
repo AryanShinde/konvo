@@ -7,4 +7,4 @@ def homepage(request):
 
 def logout_view(request):
     logout(request)
-    redirect('home')
+    return redirect('home')

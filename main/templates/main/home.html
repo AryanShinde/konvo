@@ -4,6 +4,14 @@
 
 {% block body %}
 
+{% if user.is_authenticated %}
+
+<a href="{% url 'social:begin' 'google-oauth2' %}"><h1>Login</h1></a>
+
+{% else %}
+
 <a href="{% url 'social:begin' 'google-oauth2' %}"><h1>Hello</h1></a>
+
+{% endif %}
 
 {% endblock %}
